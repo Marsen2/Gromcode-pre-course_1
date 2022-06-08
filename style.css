@@ -4,7 +4,7 @@
 ol, ul{
     background-color: yellow;
 }
-footer, header{
+footer{
  border: 3px dashed blue;
 }
 h1,h2,h3,h4{

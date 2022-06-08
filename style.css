@@ -1,7 +1,7 @@
 .super-important.highlighted{
     background-color: red;
 }
-.highlighted, .user-data{
+.highlighted{
     color: yellow;
 }
 li.user-data{

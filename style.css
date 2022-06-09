@@ -22,7 +22,7 @@ input{
 #special{
     border: 2px solid blue;
 }
-div > p{
+p{
     font-size: 25px;
 }
 input[type="text"]{

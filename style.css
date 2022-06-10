@@ -1,19 +1,26 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    width: 50%;
-    float: left;
-}
-.red{
-    float: right;
+.block_red{
     background-color: red;
+    height: 200px;
+
 }
-.green{
-    float: left;
+.block_black{
+    background-color: black;
+    height: 200px;
+
+}
+.block_blue{
+    background-color: blue;
+    height: 200px;
+}
+.block_green{
     background-color: green;
+    height: 200px;
 }
-.footer{
-    clear: both;
-   height: 30px;
+.block_yellow{
+    background-color: yellow;
+    height: 200px;
+}
+div{
+    width: 20%;
+    float: left;
 }

@@ -1,30 +1,72 @@
-* {
-box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
-.block_red{
-    background-color: red;
-
-
-}
-.block_black{
-    background-color: black;
-
+.header{
+    background-color: darkturquoise;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 
 }
-.block_blue{
-    background-color: blue;
+.navigation{
+    height: 40px;
+
 
 }
-.block_green{
-    background-color: green;
+.nav-item{
+    display: inline-block;
+    line-height: 16px;
+    color: white;
+
+
 
 }
-.block_yellow{
-    background-color: yellow;
-
+.content{
+    height: 5000px;
+    background-color: beige;
 }
-div{
+.head{
+    width: 200px;
     height: 200px;
-    width: 20%;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:calc(50% - 100px);
+}
+.ear{
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+    position: relative;
+}
+.ear_left{
+    float: left;
+    position: relative;
+    bottom: 60px;
+    right: 40px;
+}
+.ear_right{
+    float: right;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+.eye{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-top: 80px;
+
+
+}
+.eye_right{
+    float: right;
+}
+.eye_left{
     float: left;
 }
+

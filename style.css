@@ -8,5 +8,6 @@ div{
     height: 100px;
     width: 100px;
     flex-shrink: 0;
+    flex-grow: 1;
 
 }

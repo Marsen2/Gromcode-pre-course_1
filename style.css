@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 .header{
     background-color: darkturquoise;
@@ -12,14 +13,15 @@
 }
 .navigation{
     height: 40px;
-    align-items: center;
+    line-height: 40px;
 
 
 }
 .nav-item{
     display: inline-block;
-    line-height: 16px;
+
     color: white;
+
 
 
 

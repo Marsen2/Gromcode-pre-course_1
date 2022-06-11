@@ -1,80 +1,14 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
-.header{
-    background-color: darkturquoise;
-    height: 40px;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
+.horizontal {
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
 
 }
-.navigation{
-    height: 40px;
-    line-height: 40px;
-
-
-
-}
-.nav-item{
-    display: inline-block;
-    margin-left: 16px;
-    color: white;
-    float: left;
-
-
-
-
-
-
-}
-.content{
-    height: 5000px;
-    background-color: beige;
-}
-.head{
-    width: 200px;
+.vertical{
     height: 200px;
-    background-color: aquamarine;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top:calc(50% - 100px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
-.ear{
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    position: relative;
-}
-.ear_left{
-    float: left;
-    position: relative;
-    bottom: 60px;
-    right: 40px;
-}
-.ear_right{
-    float: right;
-    position: relative;
-    bottom: 60px;
-    left: 40px;
-}
-.eye{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: grey;
-    margin-top: 80px;
-
-
-}
-.eye_right{
-    float: right;
-}
-.eye_left{
-    float: left;
-}
-

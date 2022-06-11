@@ -14,13 +14,13 @@
 .navigation{
     height: 40px;
     line-height: 40px;
-    margin-left: 16px;
+
 
 
 }
 .nav-item{
     display: inline-block;
-
+    margin-left: 16px;
     color: white;
 
 

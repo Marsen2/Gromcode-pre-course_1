@@ -19,7 +19,7 @@ header{
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    min-width: 300px;
+    flex-basis: 300px;
     flex-grow: 1;
 
 

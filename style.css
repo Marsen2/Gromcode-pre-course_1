@@ -1,9 +1,12 @@
 
+
+
 .header{
     height: 40px;
     background-color: yellow;
     align-items: center;
     display: flex;
+
 }
 footer{
     height: 40px;
@@ -12,12 +15,13 @@ footer{
 
 }
 .navigation{
-    margin: 0;
+
     display: flex;
     list-style-type: none;
+
 }
 .menu{
-    margin-right: 16px;
+    margin-left: 16px;
 }
 .h_footer{
     margin: auto;
@@ -45,9 +49,12 @@ footer{
 }
 .aside{
     background-color: grey;
+
 }
 .ul{
     height: 40px;
     list-style-type: none;
-    margin-right: 16px;
+
+
+
 }

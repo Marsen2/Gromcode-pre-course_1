@@ -15,9 +15,10 @@ footer{
 
 }
 .navigation{
-
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 .menu{
@@ -43,17 +44,20 @@ footer{
     align-items: center;
 }
 .h2{
-    width: 200px;
     text-align: center;
     margin: 16px;
+
 }
 .aside{
     background-color: grey;
+    width: 200px;
 
 }
 .ul{
     height: 40px;
     list-style-type: none;
+    margin-left: 16px;
+    padding: 0;
 
 
 

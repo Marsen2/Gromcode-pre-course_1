@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 .dropdown{
     margin: 16px;
     display: inline-block;

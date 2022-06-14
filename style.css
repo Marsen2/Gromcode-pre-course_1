@@ -3,13 +3,12 @@ div > div {
     height: 100px;
     background: coral;
 }
-div:nth-child(1)
-{
+div div:nth-child(1){
     display: none;
 }
 div:nth-child(2){
     visibility: hidden;
 }
-div:nth-child(3){
-    visibility: visible ;
+div > div:nth-child(3){
+    visibility: visible;
 }

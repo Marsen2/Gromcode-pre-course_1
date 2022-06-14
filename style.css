@@ -1,23 +1,40 @@
 * {
     box-sizing: border-box;
 }
-.articles{
-    display: flex;
-}
-.articles > div{
-    height: 100px;
-    width: 150px;
-    background-color: beige;
+.dropdown{
     margin: 16px;
+}
+.menu-button{
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
 
 }
-.cropped{
-    overflow: hidden;
+.menu-button:hover{
+    opacity: 1;
 }
-.both-scrolls{
-    overflow: scroll;
-    cursor: all-scroll;
+.menu-list{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+    z-index: 1;
+    display: none;
+
 }
-.vertical-scroll{
-    overflow-y: auto;
+.menu-item{
+    padding: 16px;
+    list-style-type: none;
+}
+.menu-item:hover{
+    background-color: ghostwhite;
+}
+.dropdown:hover .menu-list{
+    display: block;
 }

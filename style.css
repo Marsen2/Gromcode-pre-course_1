@@ -3,6 +3,7 @@
     margin: 16px;
 }
 .menu-button{
+    display: inline-block;
     position: relative;
     padding: 16px;
     background-color: darkgreen;

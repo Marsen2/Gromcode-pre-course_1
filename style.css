@@ -3,14 +3,19 @@ html{
 }
 h1{
     font-size: 74px;
-    line-height: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50vh;
     text-align: center;
+    margin: 16px auto;
+
 }
 div{
     height: 200px;
+    text-align: center;
     background-color: coral;
     color: white;
     text-transform: uppercase;
-    text-align: center;
     line-height: 200px;
 }

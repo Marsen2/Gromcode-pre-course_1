@@ -1,15 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+.gallery{
     box-sizing: border-box;
 }
 .image{
-    margin: 16px;
-    display: inline-block;
     height: 200px;
     width: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px dotted grey;
     background-position: center;
+    display: inline-block;
+    margin: 16px;
+
 }

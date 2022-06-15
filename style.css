@@ -1,20 +1,12 @@
-*{
-    box-sizing: border-box;
-}
-div{
-    height: 500px;
-    width: 300px;
-}
-.mountains{
-    font-size: 32px;
-    color: white;
-    padding: 32px;
+.header-text{
+    margin: 0;
+    padding: 16px;
+    text-transform: uppercase;
     text-align: center;
-    box-sizing: border-box;
+    font-family: Arial;
     font-weight: 700;
-    height: 500px;
-    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg");
-    background-position: center;
-    background-size: cover;
-    align-items: center;
+    font-size: 96px;
+    background: linear-gradient(45deg,yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

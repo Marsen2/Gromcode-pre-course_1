@@ -1,14 +1,13 @@
 .image-container{
     display: flex;
     justify-content: center;
-
     position: relative;
     min-width: 100%;
 
 }
 .image-button{
     position: absolute;
-    height: 50px;
+    line-height: 50px;
     width: 200px;
     background-color: bisque;
     font-size: 12px;

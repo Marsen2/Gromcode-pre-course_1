@@ -1,4 +1,18 @@
-body{
-    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg");
-    
+*{
+    box-sizing: border-box;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px dotted grey;
+    background-position: center;
+    display: inline-block;
+    margin: 16px;
+
+}
+[img]{
+    margin: 0;
+    padding: 0;
 }

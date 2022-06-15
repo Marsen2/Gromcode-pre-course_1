@@ -1,15 +1,7 @@
-html{
-    font-size: 18px;
+div.rectangle{
+    background-color: blueviolet;
 }
-.properties-list__item{
-    color: #f39;
+p.text::first-letter{
+    color: green;
     font-size: 24px;
-    line-height: 32px;
-    padding: 8px;
-}
-.properties-list{
-    list-style-type: none;
-    color: #f39;
-    font-size: 24px;
-    line-height: 32px;
 }

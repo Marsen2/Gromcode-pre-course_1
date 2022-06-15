@@ -1,20 +1,10 @@
-*{
-    box-sizing: border-box;
+.icon{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-image: url("sprites.png");
+    background-position-x: -200px;
 }
-div{
-    height: 500px;
-    width: 300px;
-}
-.mountains{
-    font-size: 32px;
-    color: white;
-    padding: 32px;
-    text-align: center;
-    box-sizing: border-box;
-    font-weight: 700;
-    height: 500px;
-    background-image: url("nature.jpeg");
-    background-position: center;
-    background-size: cover;
-    align-items: center;
+.icon:hover{
+    background-position-y: -100px;
 }

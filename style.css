@@ -1,12 +1,10 @@
-.header-text{
-    margin: 0;
-    padding: 16px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: Arial;
-    font-weight: 700;
-    font-size: 96px;
-    background: linear-gradient(45deg,yellow, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.image{
+    margin: 16px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px dotted grey;
+    background-position: center;
 }

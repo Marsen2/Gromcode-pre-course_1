@@ -1,9 +1,9 @@
 .image-container{
- margin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .main-image{
-    margin: 200px auto 0;
+    margin: auto;
     display: block;
     max-width: 100%;
     border-radius: 20px;

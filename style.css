@@ -7,28 +7,23 @@ html{
     font-family: monospace;
 
 }
-.login-form{
+.page{
     background-color: aqua;
-    display: block;
     width: 300px;
     padding: 16px;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     margin: 0 auto;
-
-
-
-
-
 }
 .form-title{
     text-align: center;
     text-transform: uppercase;
 }
 .form-control{
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 .form-label{
-    padding-bottom: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
 }
 .form-input{
     width: 100%;

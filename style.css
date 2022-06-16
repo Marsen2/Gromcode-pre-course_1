@@ -3,6 +3,7 @@
 }
 .form{
     margin: 32px;
+    display: block;
 }
 inputs{
     padding: 8px;

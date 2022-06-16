@@ -1,12 +1,14 @@
-*{
+* {
     box-sizing: border-box;
+}
+.image{
+    max-width: 100%;
+
 }
 .image-container{
     display: flex;
     justify-content: center;
     position: relative;
-    min-width: 100%;
-
 }
 .image-button{
     position: absolute;
@@ -20,9 +22,9 @@
     top: calc(50% - 25px);
     left: calc(50% - 100px);
     align-items: center;
-    cursor: pointer;
     text-align: center;
 }
 .image-button:hover{
     opacity: 1;
+    cursor: pointer;
 }

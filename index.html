@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
-    <title>Images</title>
+    <title>Checkbox</title>
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,34 +13,10 @@
 </head>
 
 <body>
-<form>
-<div>
-    <label for="lastName">Last Name</label>
-    <input class="inp" type="text" id="lastName" name="lastName" value="Emerson" readonly>
-</div>
-<div>
-    <label for="age">Age</label>
-        <input class="inp" name="age" min="3" id="age" max="10" type="number" value="17" required>
-
-</div>
-<div>
-    <input type="checkbox" id="accepted" name="agree" disabled>
-    <label for="accepted">Accept terms and conditions</label>
-</div>
-<div class="choose-gender">
-    <input type="radio" id="male" name="gender" checked>
-    <label for="male" >Male</label>
-    <input type="radio" id="female" name="gender">
-    <label for="female">Female</label>
-    <input type="radio" id="secret" name="gender">
-    <label for="secret">Secret</label>
-</div>
-<div>
-    <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
-</div>
-<div>
-    <button type="submit">Submit</button>
-    </div>
-</form>
+<label class="checkbox"
+>Checkbox
+    <input type="checkbox"/>
+    <span class="checkmark"></span>
+</label>
 </body>
 </html>

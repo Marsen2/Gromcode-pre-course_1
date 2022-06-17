@@ -1,34 +1,17 @@
-*{
-    box-sizing: border-box;
+.row{
+    display: flex;
 }
-tr, td {
-    height: 50px;
-    width: 50px;
+.small-bird{
+    width: 64px;
+    height: 64px;
 }
-table, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+.large-bird{
+    width: 320px;
+    height: 320px;
 }
-table{
-    margin: 16px;
-}
-tbody > .r:nth-child(even){
-    background-color: black;
-}
-
-.chess .odd .first:nth-child(odd){
-    background-color: black;
-}
-.chess .even .second:nth-child(even){
-    background-color: black;
-}
-.head{
-    text-align: center;
-
-}
-.top{
-    text-align: center;
-    border-spacing: 0;
-
-    border: 0;
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 }

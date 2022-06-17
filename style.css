@@ -1,35 +1,34 @@
 *{
     box-sizing: border-box;
 }
-table, td, th{
+tr, td {
+    height: 50px;
+    width: 50px;
+}
+table, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
-td, th{
-    padding: 4px;
-    text-align: right;
-    height: 40px;
-}
 table{
-    width: 500px;
     margin: 16px;
 }
-div{
-    overflow-x: auto;
+tbody > .r:nth-child(even){
+    background-color: black;
 }
-th{
-    background-color: aqua;
+
+.chess .odd .first:nth-child(odd){
+    background-color: black;
 }
-tfoot{
-    font-weight: 700;
+.chess .even .second:nth-child(even){
+    background-color: black;
 }
-caption{
-    margin-bottom: 8px;
+.head{
+    text-align: center;
+    display: inline-block;
 }
-tbody > tr:nth-child(odd){
-    background-color: #f2f2f2;
-}
-tbody > tr:hover{
-    background-color: #aaa;
-    color: white;
+.top{
+    text-align: center;
+    border-spacing: 0;
+
+    border: 0;
 }

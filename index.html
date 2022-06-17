@@ -13,30 +13,35 @@
 </head>
 
 <body>
-<main class="page">
-    <form class="login-form">
-        <h1 class="form-title">Login</h1>
-        <div class="form-control">
-            <label class="form-label" for="email">Email</label>
-            <input
-                    class="form-input"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="mail@example.com"
-                    required
-            />
-        </div>
-        <div class="form-control">
-            <label class="form-label" for="userName">Full Name</label>
-            <input class="form-input" type="text" id="userName" name="userName" />
-        </div>
-        <div class="form-control">
-            <label class="form-label" for="password">Password</label>
-            <input class="form-input" type="password" id="password" name="password" required />
-        </div>
-        <button class="submit-button" type="submit">Submit</button>
-    </form>
-</main>
+<table>
+    <caption>Shopping list</caption>
+    <thead>
+    <td>Product</td>
+    <td>Amount</td>
+    <td>Price</td>
+    <td>Total</td>
+
+    </thead>
+    <tbody>
+    <tr>
+        <td>Milk</td>
+        <td>3</td>
+        <td>$2</td>
+        <td>$6</td>
+    </tr>
+    <tr>
+        <td>Bread</td>
+        <td>2</td>
+        <td>$1</td>
+        <td>$2</td>
+    </tr>
+        </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3">Total</td>
+        <td>$8</td>
+    </tr>
+    </tfoot>
+</table>
 </body>
 </html>

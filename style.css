@@ -1,37 +1,31 @@
 *{
     box-sizing: border-box;
 }
-table, td, th{
+tr, td {
+    height: 50px;
+    width: 50px;
+}
+table, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
-td, th{
-    padding: 4px;
-    text-align: right;
-    line-height: 40px;
-    margin-bottom: 8px;
-}
 table{
-    width: 500px;
     margin: 16px;
 }
-div{
-    overflow-x: auto;
-}
-th{
-    background-color: aqua;
-}
-tfoot{
-    font-weight: 700;
+tbody > .r:nth-child(even){
+    background-color: black;
 }
 
-tbody > tr:nth-child(odd){
-    background-color: #f2f2f2;
+.chess .odd .first:nth-child(even){
+    background-color: black;
 }
-tbody > tr:hover{
-    background-color: #aaa;
-    color: white;
+.chess .even .second:nth-child(odd){
+    background-color: black;
 }
-caption{
-    margin: 8px;
+.head{
+    text-align: center;
+    display: inline-block;
+}
+.top{
+    text-align: center;
 }

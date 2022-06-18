@@ -22,7 +22,7 @@ div{
     background-color: coral;
     margin: 0 auto;
     position: absolute;
-    top: 0;
+    left: 0;
     right: 0;
     top: calc(50% - 50px);
     animation: move 2s;

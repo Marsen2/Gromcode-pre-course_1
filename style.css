@@ -3,6 +3,7 @@ body{
     height: 100vh;
 }
 .fancy-button{
+    color: white;
     width: 150px;
     height: 50px;
     border-radius: 4px;
@@ -13,7 +14,7 @@ body{
     background-image: linear-gradient(45deg, yellow, red);
     margin: auto;
     animation: jump 0.5s .4s, spin .5s, hide 1s 2s forwards;
-    
+
 }
 @keyframes jump {
     0% {

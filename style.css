@@ -1,41 +1,37 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    margin: 32px;
-    text-align: center;
-    align-items: center;
-    line-height: 100px;
-}
-.rect{
+.square{
     height: 100px;
     width: 100px;
     background-color: coral;
-    margin-bottom: 16px;
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
-    opacity: 0.5;
+    position: absolute;
+    animation: move 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+@keyframes move {
+    0% {
+        left: 0;
+        right: 0;
+        background-color: coral;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+        background-color: cornflowerblue;
+    }
+    50% {
+        left: 300px;
+        top: 300px;
+        background-color: aqua;
+    }
+    75% {
+        left: 0;
+        top: 300px;
+        background-color: yellowgreen;
+    }
 
 
-
-
-}
-.rect:hover{
-    width: 100%;
-    opacity: 1;
-}
-.linear{
-    transition-timing-function: linear;
-}
-.ease{
-    transition-timing-function: ease;
-}
-.ease-in{
-    transition-timing-function: ease-in;
-}
-.ease-out{
-    transition-timing-function: ease-out;
-}
-.ease-in-out{
-    transition-timing-function: ease-in-out;
+    100% {
+        left: 0;
+        top: 0;
+    }
 }

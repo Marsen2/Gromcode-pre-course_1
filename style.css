@@ -1,32 +1,37 @@
-
-.custom-button{
-    width: 200px;
-    height: 50px;
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 32px;
+}
+.rect{
+    height: 100px;
+    width: 100px;
     background-color: coral;
-    color: white;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-family: "Courier New", Courier , monospace;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-    margin: 64px;
-    line-height: 50px;
-}
-.icon{
-    width: 32px;
-    height: 32px;
-    vertical-align: middle;
-    fill: white;
+    margin-bottom: 16px;
+    text-align: center;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
+    opacity: 0.5;
+
 
 }
-.custom-button:hover > .icon{
-    color: darkcyan;
+.rect:hover{
+    width: 100%;
+    opacity: 1;
 }
-
-.custom-button:hover{
-        color: darkcyan;
-    }
-.icon:hover{
-    fill: green;
+.linear{
+    transition-timing-function: linear;
+}
+.ease{
+    transition-timing-function: ease;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
 }

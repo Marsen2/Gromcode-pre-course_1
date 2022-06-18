@@ -1,37 +1,21 @@
-.square{
-    height: 100px;
-    width: 100px;
-    background-color: coral;
-    position: absolute;
-    animation: move 4s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+.spinner{
+    display: flex;
+    justify-content: center;
+    line-height: 50vw;
+    align-items: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    animation: blinking 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    flex-direction: column;
 }
-@keyframes move {
-    0% {
-        left: 0;
-        right: 0;
-        background-color: coral;
-    }
-    25% {
-        left: 300px;
-        top: 0;
-        background-color: cornflowerblue;
-    }
-    50% {
-        left: 300px;
-        top: 300px;
-        background-color: aqua;
-    }
-    75% {
-        left: 0;
-        top: 300px;
-        background-color: yellowgreen;
-    }
-
-
-    100% {
-        left: 0;
-        top: 0;
-    }
+.rect{
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation: moving 2s, blinking 2s;
+    animation-iteration-count: infinite;
 }

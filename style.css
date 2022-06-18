@@ -1,21 +1,40 @@
-.spinner{
-    display: flex;
-    justify-content: center;
-    line-height: 50vw;
-    align-items: center;
-    font-family: monospace;
-    text-transform: uppercase;
-    animation: blinking 2s;
-    position: relative;
-    animation-iteration-count: infinite;
-    transition-timing-function: linear;
-    flex-direction: column;
+*{
+    box-sizing: border-box;
 }
-.rect{
-    background-color: black;
-    width: 10px;
-    height: 4px;
-    border-radius: 2px;
-    animation: moving 2s, blinking 2s;
-    animation-iteration-count: infinite;
+.block{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+
+
+
+
+
+}
+div{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: calc(50% - 50px);
+    animation: move 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes move {
+    from {
+    top: -100px;
+        } to
+         {
+    bottom: calc(50vh - 50px);
+        }
 }

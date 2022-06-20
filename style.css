@@ -1,0 +1,21 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    line-height: 50vw;
+    align-items: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    animation: blinking 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    flex-direction: column;
+}
+.rect{
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation: moving 2s, blinking 2s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,4 @@
+'c' is not defined
+'console' is not defined
+'d' is not defined
+no-undef

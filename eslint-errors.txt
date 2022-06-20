@@ -1,4 +1,3 @@
-'c' is not defined
-'console' is not defined
-'d' is not defined
-no-undef
+'var' is used instead of 'let' or 'const'
+Comparison a == 1 may cause unexpected type coercion
+Variable d implicitly declared

@@ -1,3 +1,0 @@
-'var' is used instead of 'let' or 'const'
-Comparison a == 1 may cause unexpected type coercion
-Variable d implicitly declared

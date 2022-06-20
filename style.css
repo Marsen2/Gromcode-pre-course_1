@@ -52,10 +52,12 @@ html, body{
 }
 .nav-list-link{
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: grey;
-
+    align-self: center;
     color: white;
+    margin: 5px;
 }
 .nav-list-item{
     list-style-type: none;

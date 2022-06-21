@@ -7,63 +7,43 @@ html, body{
     color: #555;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-
-
+    min-height: 100vh;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    overflow-y: hidden;
 }
 .header{
     color: white;
     background: linear-gradient(60deg, red, orange);
-    text-align: center;
-
-
-}
-.footer{
-    display: flex;
-    background-color: #e5e5e5;
-    padding: 0.5em;
-}
-.main{
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 1.25em;
-    line-height: 1.75em;
     align-items: center;
+    display: flex;
+
 
 }
+.header h1{
+    margin: auto;
+
+
+
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+}
+
 .section{
-    flex-direction: column;
+   align-items: center;
+
 }
 .section__header{
     text-align: center;
 }
-.css-units{
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-weight: 700;
-}
-.navigation{
-    padding: 0.5em;
 
 
-}
-.nav-list-link{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    background-color: grey;
-    align-self: center;
-    color: white;
-    margin: 5px;
-}
-.nav-list-item{
-    list-style-type: none;
-
-}
-aside p{
-    display: flex;
-
-}

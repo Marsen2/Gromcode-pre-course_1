@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
 }
-html, body{
+
+html, body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
     color: #555;
@@ -12,17 +13,20 @@ html, body{
     flex-wrap: wrap;
     overflow-y: hidden;
 }
-.header{
+
+.header {
     color: white;
     background: linear-gradient(60deg, red, orange);
     text-align: center;
     align-items: center;
 
 }
-.header h1{
+
+.header h1 {
     margin: auto;
 
 }
+
 .main {
     display: flex;
     justify-content: space-around;
@@ -31,33 +35,36 @@ html, body{
     padding: 0.5em;
 }
 
-.footer{
+.footer {
     background-color: #e5e5e5;
     text-align: center;
     padding: 0.5em;
 }
 
-.section{
-   align-items: center;
+.section {
+    align-items: center;
     width: 60%;
 
 }
-.section__header{
+
+.section__header {
     text-align: center;
 }
-.nav-list{
+
+.nav-list {
     list-style-type: none;
     line-height: 1.75em;
 
 
 }
-.navigation{
+
+.navigation {
     width: 20%;
 
 
-
 }
-.nav-list-link{
+
+.nav-list-link {
     text-decoration: none;
     color: white;
     background-color: #808080;
@@ -70,13 +77,21 @@ html, body{
 
 
 }
-.css-units{
+
+.nav-list-item {
+    padding: 0 0 0 0;
+}
+
+.css-units {
     color: #8b0000;
     background-color: #e5e5e5;
     font-weight: 700;
 }
-.news{
+
+.news {
     width: 20%;
 }
+
+
 
 

@@ -62,6 +62,7 @@ html, body {
     width: 20%;
 
 
+
 }
 
 .nav-list-link {
@@ -74,6 +75,7 @@ html, body {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    padding: 0.5em;
 
 
 }

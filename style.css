@@ -50,6 +50,7 @@ body {
 
 .section__header {
   text-align: center;
+  font-size: 5vw;
 }
 
 .navigation {
@@ -82,6 +83,7 @@ body {
   color: #8b0000;
   background-color: #e5e5e5;
   font-weight: 700;
+  font-size: 1.125em;
 }
 
 .news {

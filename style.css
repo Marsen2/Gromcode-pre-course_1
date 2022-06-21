@@ -20,6 +20,7 @@ body {
   background: linear-gradient(60deg, red, orange);
   text-align: center;
   align-items: center;
+    flex-shrink: 1;
 }
 
 .header h1 {
@@ -43,35 +44,38 @@ body {
 .section {
   align-items: center;
   width: 60%;
+  line-height: 1.75em;
 }
 
 .section__header {
   text-align: center;
 }
 
-.nav-list {
-  list-style-type: none;
-  line-height: 1.75em;
-  padding: 0;
-}
-
 .navigation {
   width: 20%;
 }
-
-.nav-list-link {
-  text-decoration: none;
-  color: white;
+.nav-list-item {
+  list-style-type: none;
   background-color: #808080;
-  display: inline-block;
+  height: 2em;
+  line-height: 2em;
   margin-bottom: 0.5em;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  padding: 0.5em;
+    color: white;
 }
 
+.nav-list-link {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-list{
+    padding: 0;
+}
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;

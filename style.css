@@ -15,27 +15,26 @@ html, body{
 .header{
     color: white;
     background: linear-gradient(60deg, red, orange);
+    text-align: center;
     align-items: center;
-    display: flex;
-
 
 }
 .header h1{
     margin: auto;
 
-
-
 }
 .main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-grow: 1;
+    font-size: 1.25em;
+    padding: 0.5em;
 }
 
 .footer{
-    background-color: grey;
+    background-color: #e5e5e5;
     text-align: center;
+    padding: 0.5em;
 }
 
 .section{
@@ -45,5 +44,32 @@ html, body{
 .section__header{
     text-align: center;
 }
+.nav-list{
+    list-style-type: none;
+    line-height: 1.75em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.navigation{
+    padding: 0;
+
+}
+.nav-list-link{
+    text-decoration: none;
+    color: white;
+    background-color: #808080;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    width: 100%;
+
+}
+.css-units{
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-weight: 700;
+}
+
 
 

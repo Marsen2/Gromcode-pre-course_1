@@ -31,8 +31,8 @@ body {
   display: flex;
   justify-content: space-around;
   flex-grow: 1;
-  font-size: 1.25em;
   padding: 0.5em;
+  
 }
 
 .footer {
@@ -45,6 +45,7 @@ body {
   align-items: center;
   width: 60%;
   line-height: 1.75em;
+  font-size: 1.25em;
 }
 
 .section__header {
@@ -53,6 +54,7 @@ body {
 
 .navigation {
   width: 20%;
+ 
 }
 .nav-list-item {
   list-style-type: none;

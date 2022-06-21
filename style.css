@@ -12,20 +12,17 @@ body {
   min-height: 100vh;
   flex-shrink: 1;
   flex-wrap: wrap;
-  overflow-y: hidden;
+  
 }
 
 .header {
   color: white;
   background: linear-gradient(60deg, red, orange);
   text-align: center;
-  align-items: center;
   flex-shrink: 1;
 }
 
-.header h1 {
-  margin: auto;
-}
+
 
 .main {
   display: flex;
@@ -46,6 +43,7 @@ body {
   width: 60%;
   line-height: 1.75em;
   font-size: 1.25em;
+  padding: 0.5em;
 }
 
 .section__header {
@@ -88,4 +86,7 @@ body {
 
 .news {
   width: 20%;
+}
+.section p{
+  padding: 0.5em;
 }

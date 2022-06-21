@@ -54,7 +54,7 @@ html, body {
 .nav-list {
     list-style-type: none;
     line-height: 1.75em;
-
+    padding: 0;
 
 }
 
@@ -76,10 +76,6 @@ html, body {
     text-overflow: ellipsis;
 
 
-}
-
-.nav-list-item {
-    padding: 0 0 0 0;
 }
 
 .css-units {

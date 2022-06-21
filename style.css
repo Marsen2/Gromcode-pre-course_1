@@ -20,7 +20,7 @@ body {
   background: linear-gradient(60deg, red, orange);
   text-align: center;
   align-items: center;
-    flex-shrink: 1;
+  flex-shrink: 1;
 }
 
 .header h1 {
@@ -60,7 +60,7 @@ body {
   height: 2em;
   line-height: 2em;
   margin-bottom: 0.5em;
-    color: white;
+  color: white;
 }
 
 .nav-list-link {
@@ -73,8 +73,8 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.nav-list{
-    padding: 0;
+.nav-list {
+  padding: 0;
 }
 .css-units {
   color: #8b0000;

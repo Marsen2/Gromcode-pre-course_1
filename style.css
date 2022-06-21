@@ -54,7 +54,7 @@ body {
 
 .navigation {
   width: 20%;
- 
+  padding:  0.5em;
 }
 .nav-list-item {
   list-style-type: none;

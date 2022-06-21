@@ -39,6 +39,7 @@ html, body{
 
 .section{
    align-items: center;
+    width: 60%;
 
 }
 .section__header{
@@ -47,13 +48,13 @@ html, body{
 .nav-list{
     list-style-type: none;
     line-height: 1.75em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+
 
 }
 .navigation{
-    padding: 0;
+    width: 20%;
+
+
 
 }
 .nav-list-link{
@@ -63,6 +64,10 @@ html, body{
     display: inline-block;
     margin-bottom: 0.5em;
     width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 
 }
 .css-units{
@@ -70,6 +75,8 @@ html, body{
     background-color: #e5e5e5;
     font-weight: 700;
 }
-
+.news{
+    width: 20%;
+}
 
 

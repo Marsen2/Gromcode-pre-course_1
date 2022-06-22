@@ -1,64 +1,96 @@
 * {
     box-sizing: border-box;
 }
-html{
-    font-family: Arial, Helvetica, sans-serif;
+
+html,
+body {
     font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
-.header{
-    height: 3em;
-    padding: 1em;
-    background-color: #eee;
+
+.header {
+    color: white;
+    background: linear-gradient(60deg, red, orange);
+    text-align: center;
+    flex-shrink: 1;
 }
-.fa-bars{
-    padding: 0;
-    font-size: 2em;
-    cursor: pointer;
+
+.main {
+    display: flex;
+    flex-grow: 1;
 }
-button{
-    padding: 0;
-    background: none;
-    border: none;
-    display: none;
-    
+
+.footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 0.5em;
 }
-.nav-list-link{
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.section__header {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.navigation {
+    width: 20%;
+    padding: 0.5em;
+}
+.nav-list-item {
+    list-style-type: none;
+    background-color: #808080;
+    height: 2em;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.nav-list-link {
+    width: 100%;
     text-decoration: none;
     color: white;
-    padding: 0.5em;
-    width: 100%;
+    display: inline-block;
+    padding: 0 0.5em;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
 }
-.nav-list{
-    
-    line-height: 2em;
-    list-style-type: none;
+.nav-list {
     padding: 0;
+}
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-weight: 700;
+    font-size: 1.125em;
+}
+.units-list {
+    height: 1.75em;
+    line-height: 1.75em;
     
 }
-.nav-list-item{
-    margin-bottom: 0.5em;
-    background-color: #808080;
-}
-.navigation{
+
+.news {
     width: 20%;
     padding: 0.5em;
-    display: none;
     
-    
+}
+.picture{
+    display: flex;
+    max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
 
 
-@media screen and (max-width: 600px) {
-    button{
-        display: inline;
-    }
-}
-@media screen and (min-width: 600px){
-     .navigation{
-         display: block;
-     }
-}

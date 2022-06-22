@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breakpoints</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive menu</title>
   </head>
+
   <body>
-    <main>
-      <picture>
-        <source
-          srcset="
-            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
-          "
-          media="(min-width: 600px)"
-        />
-        <source
-          srcset="
-            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
-          "
-          media="(max-width: 400px)"
-        />
-        <img
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
-          alt="Three"
-        />
-      </picture>
+    <header class="header">
+      <button>
+        <i class="fa fa-bars"></i>
+      </button>
+    </header>
+    <main class="main">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list-item"><a class="nav-list-link" href="#">Responsive images</a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="#">Mediaqueries</a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="#">Flexbox</a></li>
+        </ul>
+      </nav>
     </main>
   </body>
 </html>

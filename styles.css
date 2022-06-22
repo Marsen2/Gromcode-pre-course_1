@@ -9,8 +9,6 @@ html{
     height: 3em;
     padding: 1em;
     background-color: #eee;
-    display: flex;
-    justify-content: center;
 }
 .fa-bars{
     padding: 0;
@@ -21,13 +19,17 @@ button{
     padding: 0;
     background: none;
     border: none;
-    /*display: none;*/
+    display: none;
     
 }
 .nav-list-link{
     text-decoration: none;
     color: white;
     padding: 0.5em;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     
 }
 .nav-list{
@@ -35,7 +37,7 @@ button{
     line-height: 2em;
     list-style-type: none;
     padding: 0;
-    width: 100%;
+    
 }
 .nav-list-item{
     margin-bottom: 0.5em;

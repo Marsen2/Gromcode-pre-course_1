@@ -33,7 +33,7 @@ body {
 }
 
 .section {
-    width: 60%;
+    width: 60vw;
     font-size: 1.25em;
     padding: 0.5em;
     margin: 0;
@@ -77,13 +77,12 @@ body {
     font-size: 1.125em;
 }
 .units-list {
-    height: 1.75em;
     line-height: 1.75em;
     
 }
 
 .news {
-    width: 20%;
+    width: 20vw;
     padding: 0.5em;
     
 }
@@ -98,10 +97,15 @@ body {
          flex-direction: column;
      }
     .navigation{
-        width: 100%;
+        width: 100vw;
     }
     .section{
-        text-align: center;
-        justify-content: center;
+       
+        
+        width: 100vw;
     }
+    .news{
+        width: 100vw;
+    }
+
 }

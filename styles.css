@@ -109,3 +109,38 @@ body {
     }
 
 }
+@media screen and (min-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+    }
+    .navigation{
+        width: 20vw;
+    }
+    .section{
+        width: 80vw;
+        
+    }
+    .news{
+        width: 100vw;
+    }
+ 
+}
+@media screen and (min-width: 1200px){
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation{
+        width: 20vw;
+    }
+    .section{
+        width: 60vw;
+    }
+    .news{
+        width: 20vw;
+    }
+}

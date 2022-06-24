@@ -29,7 +29,7 @@
     background-color: #ff7f50;
   }
 }
-@media screen and (min-width: 899) {
+@media screen and (min-width: 899px) {
   .square {
     background-color: #8a2be2;
   }

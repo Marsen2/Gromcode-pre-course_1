@@ -17,6 +17,7 @@
   padding: 0 8px;
   height: 100%;
   cursor: pointer;
+  color: white;
 }
 
 li {
@@ -31,7 +32,7 @@ li {
   position: relative;
 }
 
-.menu__item:hover {
+.menu__item_active {
   color: yellow;
 }
 

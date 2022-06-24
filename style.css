@@ -34,5 +34,15 @@
     background-color: #8a2be2;
   }
 }
+@media screen and (orientation: landscape) {
+  .square .container {
+    flex-direction: row;
+  }
+}
+@media screen and (orientation: portrait) {
+  .square .container {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,15 @@ span {
   margin: auto;
 }
 
+@media (min-width: 600px) {
+  .products {
+    display: flex;
+  }
+  .navigation,
+.products-list {
+    flex: 1;
+  }
+}
 @media (min-width: 900px) {
   .container {
     display: flex;
@@ -34,22 +43,6 @@ span {
   }
   .news {
     flex: 1;
-  }
-}
-@media screen and (min-width: 600px) {
-  .products {
-    display: flex;
-  }
-  .navigation,
-.products-list {
-    flex: 1;
-  }
-}
-@media screen and (max-width: 599px) {
-  .products {
-    display: flex;
-    flex-direction: row;
-    flex: 2;
   }
 }
 
